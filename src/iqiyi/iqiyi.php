@@ -1,4 +1,6 @@
 <?php
+//TODO: 待修复
+//旧地址'http://cache.video.qiyi.com/v/' . $m[1] 已经弃用
 Class iqiyi{
 	//返回视频源地址的url, 如果视频分片, 返回数组(多个url)
 	public function get_source_by_url($url){
